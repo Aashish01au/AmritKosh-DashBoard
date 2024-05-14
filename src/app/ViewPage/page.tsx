@@ -1,5 +1,9 @@
+import Image from 'next/image'
 import React from 'react'
-
+import mother from './mother.webp'
+import newborn from './newborn.webp'
+import record from './record.webp'
+import bottle from './feeding-bottle.webp'
 const ViewPage = () => {
   return (
     <>
@@ -16,7 +20,7 @@ const ViewPage = () => {
           <p className="text-[#004a89] text-xl font-extrabold">6k</p>
           </div>
           <div>
-            <img className="w-[50px]" src="/mother.webp" alt="" />
+            <Image src={mother} className="w-[50px]" alt='mother'></Image>
           </div>
         </div>
       </div>
@@ -32,7 +36,7 @@ const ViewPage = () => {
           <p className="text-[#004a89] text-xl font-extrabold">10k</p>
           </div>
           <div>
-            <img className="w-[50px]" src="/newborn.webp" alt="" />
+          <Image src={newborn} className="w-[50px]" alt='new born baby'></Image>
           </div>
         </div>
       </div>
@@ -48,7 +52,7 @@ const ViewPage = () => {
           <p className="text-[#004a89] text-xl font-extrabold">15k</p>
           </div>
           <div>
-            <img className="w-[50px]" src="/record.webp" alt="" />
+          <Image src={record} className="w-[50px]" alt='record'></Image>
           </div>
         </div>
       </div>
@@ -64,7 +68,7 @@ const ViewPage = () => {
           <p className="text-[#004a89] text-xl font-extrabold">600</p>
           </div>
           <div>
-            <img className="w-[50px]" src="/feeding-bottle.webp" alt="" />
+          <Image src={bottle} className="w-[50px]" alt='bottle'></Image>
           </div>
         </div>
       </div>

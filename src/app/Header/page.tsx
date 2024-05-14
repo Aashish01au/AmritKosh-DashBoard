@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import heart from './heart.webp'
 
 const Header = () => {
   return (
@@ -18,8 +20,7 @@ const Header = () => {
     <span className="text-red-600 font-bold ">SuperAdmin</span></p>
     <div>
       <div className=" cursor-pointer ">
-        <img src="/heart.webp" alt="" className="rounded-full h-11 w-11 shadow-md mr-8"/>
-
+<Image src={heart} alt='heart' className="rounded-full h-11 w-11 shadow-md mr-8"></Image>
       </div>
     </div>
     </div>

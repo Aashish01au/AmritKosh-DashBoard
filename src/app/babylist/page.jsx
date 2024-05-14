@@ -74,7 +74,7 @@ Action
   {data.map((items)=>
 
 (
-  <tr className='border border-x-gray text-center '>
+  <tr className='border border-x-gray text-center ' key={items.id}>
   <td className='py-3' ><p >{items?.id}</p>  </td>
   <td  className='py-3' ><p >{items?.babyName}</p>  </td>
   <td  className='py-3' ><p >{items?.dateOfBaby}</p>  </td>
