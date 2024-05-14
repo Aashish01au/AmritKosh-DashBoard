@@ -29,7 +29,7 @@ const ViewPage = () => {
           <p className="text-gray-600">
           Recipient Records
           </p>
-          <p className="text-[#004a89] text-xl font-extrabold">1k</p>
+          <p className="text-[#004a89] text-xl font-extrabold">10k</p>
           </div>
           <div>
             <img className="w-[50px]" src="/newborn.webp" alt="" />
@@ -45,7 +45,7 @@ const ViewPage = () => {
           <p className="text-gray-600">
           Registration  Records
           </p>
-          <p className="text-[#004a89] text-xl font-extrabold">10k</p>
+          <p className="text-[#004a89] text-xl font-extrabold">15k</p>
           </div>
           <div>
             <img className="w-[50px]" src="/record.webp" alt="" />
@@ -61,7 +61,7 @@ const ViewPage = () => {
           <p className="text-gray-600">
            Milk Collection
           </p>
-          <p className="text-[#004a89] text-xl font-extrabold">500</p>
+          <p className="text-[#004a89] text-xl font-extrabold">600</p>
           </div>
           <div>
             <img className="w-[50px]" src="/feeding-bottle.webp" alt="" />
