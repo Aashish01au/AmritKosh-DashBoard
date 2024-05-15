@@ -43,12 +43,12 @@ Milk Requisition Form
 Batch Number 
 <span className='text-red-600'>*</span>
 </label>
-<select aria-placeholder='Enter Batch Number' name="" className='inputStyle  p-4 rounded-md' typeof='number' id="">
+<select  name="" className='inputStyle  p-4 rounded-md' typeof='number' id="">
 <option value="disabled">--Batch Number--</option>
 </select>
 </div>
 <div className='flex flex-col'>
-<label htmlFor="">Bottle Name<span className="text-red-600">*</span></label><select aria-placeholder='Enter Batch Number' className="inputStyle p-4 rounded-md"  name="requisitedMilk.0.bottleName"><option value="">-- select bottle --</option></select>
+<label htmlFor="">Bottle Name<span className="text-red-600">*</span></label><select  className="inputStyle p-4 rounded-md"  name="requisitedMilk.0.bottleName"><option value="">-- select bottle --</option></select>
 </div>
 <div className='flex flex-col'>
 <label htmlFor="">ML<span className="text-red-600">*</span></label>

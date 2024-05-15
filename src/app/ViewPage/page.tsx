@@ -4,6 +4,9 @@ import mother from './mother.webp'
 import newborn from './newborn.webp'
 import record from './record.webp'
 import bottle from './feeding-bottle.webp'
+import graph1 from './Untitled.png'
+import graph2 from './Untitled2.png'
+
 const ViewPage = () => {
   return (
     <>
@@ -77,10 +80,10 @@ const ViewPage = () => {
 {/* ===========================  image of bar graph ========================== */}
       <div className="grid md:grid-cols-2 grid-cols-1 my-10 gap-10  ">
     <div className="w-[40vw] ">
-      <img src="/untitled.png" alt="bar graph" className="w-767px h-383px" />
+    <Image src={graph1}  alt='bargraph' className="w-767px h-383px"></Image>
     </div>
     <div className="w-[40vw] ">
-      <img src="/untitled2.png" alt="bar graph" className="w-767px h-383px" />
+    <Image src={graph2}  alt='bargraph' className="w-767px h-383px"></Image>
     </div>
   </div>
 
